@@ -1,0 +1,251 @@
+		for(int i=0;i<5;i++)
+		{
+			for(int j=0;j<=i;j++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+		for(int i=0;i<5;i++)
+		{
+			for(int q=0;q<5-i;q++)
+			{
+				System.out.print(" ");
+			}
+			for(int j=0;j<=i;j++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+
+     *
+    **
+   ***
+  ****
+ *****
+		
+		for(int i=0;i<5;i++)
+		{
+			for(int q=0;q<5-i;q++)
+			{
+				System.out.print(" ");
+			}
+			for(int j=0;j<=i;j++)
+			{
+				System.out.print(" *");
+			}
+			System.out.println();
+		}
+      *
+     * *
+    * * *
+   * * * *
+  * * * * *
+
+
+ 
+ 
+ for(int i=0; i<5; i++)
+{
+	for(int j=0; j<=i; j++)
+	{
+		System.out.print(" ");
+	}
+	for(int m=5; m>i;m--)
+	{
+		System.out.print(" *");
+	}
+
+	System.out.println();
+}
+
+  * * * * *
+   * * * *
+    * * *
+     * *
+      *
+
+
+
+for(int i=0; i<4; i++)
+{
+	
+	for(int q=5;q>i;q--)
+	{
+		System.out.print(" ");
+	}
+	
+	for(int j=0;j<=i;j++)
+	{
+		System.out.print(" *");
+	}
+	System.out.println();	
+}
+for(int i=0; i<5; i++)
+{
+	for(int j=0;j<=i;j++)
+	{
+		System.out.print(" ");
+	}
+	for(int q=5;q>i;q--)
+	{
+		System.out.print(" *");
+	}
+	
+
+	System.out.println();	
+}
+
+      *
+     * *
+    * * *
+   * * * *
+  * * * * *
+   * * * *
+    * * *
+     * *
+      *
+
+
+read -p "Enter :" p
+
+for(( i=0 ; i<=$p ; i++))
+do
+
+for(( q=$p ; q>i ; q--))
+do
+
+echo -n " "
+done
+
+for(( j=0 ; j<=i ; j++ ))
+do
+
+echo -n " *"
+done
+echo ""
+done
+
+
+for(( i=0 ; i<=$p ; i++))
+do
+
+for(( j=0 ; j<i ; j++ ))
+do
+
+echo -n " "
+done
+
+for(( q=$p ; q>=i ; q--))
+do
+
+echo -n " *"
+done
+
+
+echo ""
+done
+
+
+      *
+     * *
+    * * *
+   * * * *
+  * * * * *
+   * * * *
+    * * *
+     * *
+      *
+
+
+
+for (( i=0; i<$p-1; i++ ))
+do
+for (( j=$p; j>$i; j-- ))
+do
+echo -n " "
+done
+
+for (( j=0; j<=$i; j++ ))
+do
+echo -n " *"
+done
+
+echo ""
+done
+
+for (( i=0; i<$p; i++ ))
+do
+for (( j=0; j<=$i; j++ ))
+do
+echo -n " "
+done
+
+for (( j=$p; j>$i; j-- ))
+do
+echo -n " *"
+done
+
+      *
+     * *
+    * * *
+   * * * *
+  * * * * *
+   * * * *
+    * * *
+     * *
+      *
+	  
+	  
+	  
+for(int i=0; i<5; i++)
+{
+	for(int j=0; j<5; j++)
+	{
+
+		  if ((i==0 || i==4) || (j==0 || j==4))
+		  {
+			  System.out.print(" *"); }
+              else
+                {System.out.print("  ");}
+	
+		
+	}
+	System.out.println();
+}
+
+ * * * * *
+ *       *
+ *       *
+ *       *
+ * * * * *
+
+for(( i=0 ; i<=5 ; i++ ))
+do
+
+for(( j=0 ; j<=5 ;j++ ))
+do
+
+if [[ $i -eq 0 || $i -eq 5 || $j -eq 0 || $j -eq 5  ]]
+then
+echo -n " *"
+else
+echo -n "  "
+fi
+
+done
+
+echo ""
+
+done
+echo ""
+
+
+ * * * * *
+ *       *
+ *       *
+ *       *
+ * * * * *
+	  
